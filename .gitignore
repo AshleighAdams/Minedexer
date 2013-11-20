@@ -1,0 +1,5 @@
+# Ignore the options
+options.cfg
+# Ignore files being edited
+*~
+

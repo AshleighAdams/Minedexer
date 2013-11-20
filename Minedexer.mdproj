@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>LuaProject</ItemType>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E8769C2-2E4F-4E5C-B206-1842F67DAAB5}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+    <InterpreterArgs>
+    </InterpreterArgs>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lua\ar_minedexer.lua" />
+    <Compile Include="lua\template.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lua\" />
+    <Folder Include="static\" />
+    <Folder Include="static\*\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+    <None Include="static\*\style.css" />
+  </ItemGroup>
+</Project>

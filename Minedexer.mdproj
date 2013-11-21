@@ -23,12 +23,13 @@
     <Folder Include="lua\" />
     <Folder Include="static\" />
     <Folder Include="static\*\" />
+    <Folder Include="static\*\minedexer\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LICENSE" />
     <None Include="README.md" />
     <None Include=".gitignore" />
-    <None Include="static\*\style.css" />
     <None Include=".project_globals" />
+    <None Include="static\*\minedexer\style.css" />
   </ItemGroup>
 </Project>

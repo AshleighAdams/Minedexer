@@ -1,19 +1,22 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="lua/ar_minedexer.lua">
+  <MonoDevelop.Ide.Workbench ActiveDocument="static/*/minedexer/style.css">
     <Files>
-      <File FileName="lua/ar_minedexer.lua" Line="7" Column="43" />
-      <File FileName="lua/template.lua" Line="2" Column="20" />
-      <File FileName="static/*/style.css" Line="2" Column="1" />
-      <File FileName=".project_globals" Line="199" Column="24" />
+      <File FileName="lua/ar_minedexer.lua" Line="6" Column="39" />
+      <File FileName="lua/template.lua" Line="24" Column="2" />
+      <File FileName="static/*/minedexer/style.css" Line="6" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Minedexer" expanded="True" selected="True">
+          <Node name="Minedexer" expanded="True">
             <Node name="lua" expanded="True" />
             <Node name="static" expanded="True">
-              <Node name="*" expanded="True" />
+              <Node name="*" expanded="True">
+                <Node name="minedexer" expanded="True">
+                  <Node name="style.css" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

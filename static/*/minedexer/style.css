@@ -1,1 +1,14 @@
+body
+{
+	margin: 0px;
+}
 
+div.wrapper
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+
+div.content
+{
+}

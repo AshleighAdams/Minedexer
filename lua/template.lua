@@ -11,9 +11,16 @@ template.generate = function(res, title, content)
 		},
 		tags.body
 		{
-			unpack(content)
+			tags.div { class = "wrapper" }
+			{
+				tags.div { class = "content" }
+				{
+					unpack(content)
+				}
+			}
 		}
 	}.to_response(res)
 end
+
 
 return template

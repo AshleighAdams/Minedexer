@@ -12,6 +12,8 @@
     <OutputPath>.</OutputPath>
     <InterpreterArgs>
     </InterpreterArgs>
+    <MainFile>
+    </MainFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="lua\ar_minedexer.lua" />
@@ -27,5 +29,6 @@
     <None Include="README.md" />
     <None Include=".gitignore" />
     <None Include="static\*\style.css" />
+    <None Include=".project_globals" />
   </ItemGroup>
 </Project>
